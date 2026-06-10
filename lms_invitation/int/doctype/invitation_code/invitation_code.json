@@ -9,7 +9,8 @@
  "field_order": [
   "code",
   "course",
-  "status"
+  "status",
+  "valid_until"
  ],
  "fields": [
   {
@@ -17,7 +18,7 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Code",
-   "reqd": 1,
+   "read_only": 1,
    "unique": 1
   },
   {
@@ -30,13 +31,18 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Available\\nUsed\\nExpired"
+   "options": "Available\nUsed\nExpired"
+  },
+  {
+   "fieldname": "valid_until",
+   "fieldtype": "Date",
+   "label": "Valid Until "
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-09 21:04:50.752462",
+ "modified": "2026-06-10 21:39:25.681629",
  "modified_by": "Administrator",
  "module": "int",
  "name": "Invitation Code",
