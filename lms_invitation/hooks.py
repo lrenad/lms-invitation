@@ -5,6 +5,15 @@ app_description = "inv"
 app_email = "renad@mai.com"
 app_license = "mit"
 
+permission_query_conditions = {
+    "Invitation Code":
+        "lms_invitation.permissions.invitation_code_permission_query"
+}
+
+has_permission = {
+    "Invitation Code":
+        "lms_invitation.permissions.invitation_code_has_permission"
+}
 # Apps
 # ------------------
 
