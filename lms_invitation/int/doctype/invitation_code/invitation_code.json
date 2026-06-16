@@ -30,13 +30,13 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Available\\nUsed\\nExpired"
+   "options": "Available\nUsed\nExpired"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-09 21:04:50.752462",
+ "modified": "2026-06-16 14:20:21.884591",
  "modified_by": "Administrator",
  "module": "int",
  "name": "Invitation Code",
